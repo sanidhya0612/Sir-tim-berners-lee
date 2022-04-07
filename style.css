@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 .profile {
@@ -32,13 +33,15 @@ body {
     font-weight: 300;
 
 }
+
 #sh {
-    font-size: 30px;
+    font-size: 45px;
     line-height: 1.2;
     font-family: monospace;
-    font-weight: 300;
+    font-weight: bold;
 
 }
+
 h2 {
     font-size: 30px;
     font-weight: 300;
@@ -49,7 +52,7 @@ h2 {
 #name {
     font-size: 30px;
     line-height: 1.2;
-    font-family: 'Bebas Neue', cursive;
+    font-family: cursive;
 }
 
 #bio {
@@ -82,7 +85,7 @@ p {
 
 }
 
-.menu{
+.menu {
     list-style: none;
     font-family: 'Bebas Neue', cursive;
     position: absolute;
@@ -90,9 +93,10 @@ p {
     right: 30px;
     z-index: 10;
     cursor: pointer;
-    
+
 }
-.links{
+
+.links {
     float: left;
     color: black;
     padding-top: 5px;
@@ -101,7 +105,20 @@ p {
     padding-bottom: 5px;
     font-size: 20px;
 }
-.links:hover{
-   background-color: lightyellow;
 
+.links:hover {
+    background-color: lightyellow;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: darkturquoise;
 }
